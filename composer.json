@@ -1,0 +1,19 @@
+{
+    "name": "albo-vieira/php-certificate",
+    "description": "PHP certificate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albo Vieira",
+            "email": "albovieira@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4" : {
+            "PhpCertificate\\": "src/"
+        }
+    }
+}
+
