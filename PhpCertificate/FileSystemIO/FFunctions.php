@@ -14,11 +14,11 @@ class FFunctions
      * @param $path
      * @param $type -  Could be:
      * r -> just read
-     * w -> just write
-     * r+ -> read/write and put the pointer on beginning
-     * w+ -> write and clean the file, pointer on beginning, if the file does not exist, it will be created
-     * a -> just write, put the pointer at the end , if the file does not exist it will be created
-     * a+ ->
+     * w -> just writes
+     * r+ -> reads/writes and put the pointer at beginning
+     * w+ -> just writes and clean the file, pointer at beginning, if the file does not exist, it will be created
+     * a -> just writes, puts the pointer at end , if the file does not exist it will be created
+     * a+ -> read/write puts the pointer at end
      *
      * @return resource
      */
